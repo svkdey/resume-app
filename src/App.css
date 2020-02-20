@@ -1,0 +1,369 @@
+html,
+body {
+  font-family: Helvetica;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: "Catamaran", sans-serif;
+  letter-spacing: 0.3px;
+  font-size: 16px;
+  /* background-color: #111;
+   color: #aaa; */
+}
+
+i {
+  display: inline;
+}
+
+.item1,
+.item2,
+.item3 {
+  /* width: 33%; */
+  padding: 0 2px;
+}
+
+.iconContainer {
+  display: flex;
+  flex-direction: row;
+  /* width: 50%; */
+}
+
+a {
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.app {
+  width: 100%;
+}
+
+/* makling one page container and dividing two div -left (non scrollable),right(scrollable) ....  */
+/* .left {
+   width: 35%;
+   display: inline-block;
+   vertical-align: top;
+ }
+
+ .right {
+   width: 65%;
+   display: inline-block;
+   vertical-align: top;
+ } */
+.mailto {
+  margin: 1rem 0;
+  color: white;
+  font-weight: bold;
+}
+.button {
+  width: 8rem;
+  height: 2rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  margin: 2rem;
+  animation: glow 1.5s linear infinite alternate;
+}
+
+@keyframes glow {
+  to {
+    box-shadow: 0px 0px 30px 30px rgba(204, 50, 30, 0.4);
+  }
+}
+
+.hey {
+  /* text-transform: ; */
+  color: rgb(217, 14, 0);
+}
+
+.button:hover {
+  background-color: #8adbbb;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+.sun {
+  color: yellow;
+}
+
+.moon {
+  color: black;
+}
+
+@media all and (min-width: 1251px) {
+  .themeSetter {
+    float: right;
+    margin: 1% 1% 0 0;
+    display: block;
+    /* color: yellow; */
+  }
+
+  .left {
+    /* color: #efefef; */
+    width: 40%;
+    height: 100%;
+    display: inline-block;
+    float: left;
+    text-align: center;
+    overflow: hidden;
+    position: fixed;
+  }
+
+  .right {
+    display: inline-block;
+    width: 60%;
+    float: right;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    padding: 5% 0 5% 2.5%;
+  }
+
+  .left-part {
+    width: 18%;
+  }
+
+  .right-part {
+    width: 80%;
+  }
+
+  .left .bg-img {
+    background: url("./new.jpg") center center no-repeat,
+      linear-gradient(to bottom, black, white);
+    background-size: cover;
+    height: 100%;
+    width: 80%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    /* opacity: 0.5; */
+  }
+
+  .left .bg-img:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: #185a9d;
+    background-image: linear-gradient(to left top, #43cea2, #185a9d);
+    opacity: 0.5;
+  }
+}
+
+.left-part h3 {
+  text-transform: uppercase;
+  background-color: #2a54f5;
+  background-image: -webkit-linear-gradient(45deg, #2a54f5 0%, #33e5bb 100%);
+  background-image: linear-gradient(45deg, #2a54f5 0%, #33e5bb 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.skill-category {
+  line-height: 2rem;
+}
+
+.university a,
+.college a,
+.company {
+  font-weight: 600;
+  text-transform: uppercase;
+  background-color: #33e5bb;
+  background-image: -webkit-linear-gradient(45deg, #2a54f5 0%, #33e5bb 100%);
+  background-image: linear-gradient(45deg, #2a54f5 0%, #33e5bb 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.company-container {
+  display: flex;
+  width: 100%;
+}
+
+.company {
+  width: 50%;
+}
+
+.duration {
+  width: 50%;
+  text-align: right;
+  color: grey;
+}
+
+.company a {
+  font-size: 24px;
+  color: black;
+}
+
+.project-title {
+  text-transform: uppercase;
+  background-color: #2a54f5;
+  background-image: -webkit-linear-gradient(45deg, #2a54f5 0%, #33e5bb 100%);
+  background-image: linear-gradient(45deg, #2a54f5 0%, #33e5bb 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 600;
+}
+
+.project-item {
+  margin: 0% 0 5% 0;
+}
+
+.left-inner {
+  width: 80%;
+  color: #fff;
+  display: block;
+  text-align: center;
+  position: relative;
+  top: 50%;
+  margin: auto;
+}
+
+.social-linksnew a {
+  color: white;
+  margin: 1rem;
+}
+
+@media only screen and (max-width: 1250px) and (min-width: 768px) {
+  .themeSetter {
+    float: right;
+    margin: 1% 1% 0 0;
+    display: block;
+    /* color: yellow; */
+  }
+
+  .left {
+    /* color: #efefef; */
+    width: 40%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    overflow: hidden;
+    position: fixed;
+  }
+
+  .right {
+    width: 60%;
+    float: right;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    padding: 5% 0 5% 12%;
+  }
+
+  .left-part {
+    width: 100%;
+  }
+
+  .right-part {
+    width: 100%;
+  }
+
+  .left .bg-img {
+    background: url("./new.jpg") center center no-repeat,
+      linear-gradient(to bottom, black, white);
+    background-size: cover;
+    height: 100%;
+    width: 80%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    /* opacity: 0.5; */
+  }
+
+  .left .bg-img:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: #185a9d;
+    background-image: linear-gradient(to left top, #43cea2, #185a9d);
+    opacity: 0.5;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .app {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .left {
+    width: 100%;
+  }
+
+  .right {
+    width: 100%;
+    /* z-index: 1; */
+  }
+
+  .left .bg-img {
+    background: url("./new.jpg") center center no-repeat,
+      linear-gradient(to bottom, black, white);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    top: -5rem;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+
+  .left .bg-img:before {
+    content: "";
+    position: absolute;
+    height: 100vh;
+    top: 0rem;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: #185a9d;
+    background-image: linear-gradient(to left top, #43cea2, #185a9d);
+    opacity: 0.5;
+  }
+
+  .container {
+    padding: 5% 0 5% 5%;
+  }
+
+  .themeSetter {
+    /* position: relative; */
+    /* top: 1rem;
+    left: 1rem; */
+    z-index: 2;
+  }
+
+  .item1,
+  .item2,
+  .item3 {
+    /* width: 33%; */
+    margin: 1rem 0 0 0.5rem;
+    color: white;
+    /* padding: 0 2px; */
+  }
+}
