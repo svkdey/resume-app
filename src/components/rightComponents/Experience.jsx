@@ -19,7 +19,7 @@ export default function Experience() {
           </div>
           <div className="title">AD digital India</div>
           <ul className="description">
-            <li>Working in On Ecommerce project .</li>
+            <li>Working On Singtel's Ecommerce project .</li>
             <li>
               Built a TDD frameword based on React and It's CLI for automatic
               creation of Template, basic test-cases .
