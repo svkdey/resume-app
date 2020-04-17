@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Skill() {
   return (
-    <div className="container">
+    <div className="container_user">
       <div className="left-part">
         <h3>Skill</h3>
       </div>
@@ -14,14 +14,17 @@ export default function Skill() {
         <div className="skill-category">
           <strong>Libraries &amp; Frameworks: &nbsp;</strong>
           <span>
-            React,Redux, jQuery, Bootstrap, Material CSS, Handlebars, Node, SQL,
-            MongoDB, AngularJS, Express, Chakra UI, Jest , Enzyme , Chai ,shell
-            script
+            React,Redux, jQuery, Bootstrap, Material CSS, Handlebars, Node,
+            AngularJS, Express, Chakra UI, Jest , Enzyme , Chai ,shell script
           </span>
         </div>
         <div className="skill-category">
+          <strong>DB : &nbsp;</strong>
+          <span>SQL,MongoDB</span>
+        </div>
+        <div className="skill-category">
           <strong>Tools: &nbsp;</strong>
-          <span>Git &amp; Github, Command Line, Postman ,Amdocs Ginger</span>
+          <span>Git &amp; Github, Postman ,Amdocs Ginger</span>
         </div>
       </div>
     </div>
