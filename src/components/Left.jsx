@@ -7,7 +7,7 @@ export default function Left(props) {
         <div className="left-inner">
           <div className="info">
             <h2 className="name">
-              <span className="hey">Hey, </span>
+              <span className="hey">Hi, </span>
               {props.name}
             </h2>
             <div className="subtext">{props.subtext}</div>

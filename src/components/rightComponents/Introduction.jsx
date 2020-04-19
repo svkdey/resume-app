@@ -8,14 +8,13 @@ export default function Introduction() {
       </div>
       <div className="right-part">
         <p className="intro-p">
-          I&#39;m currently working for Amdocs in AD Digital section which deals
-          with Ecommerce websites.
+          I&#39;m currently working for Amdocs in AD Digital domain which deals
+          with Ecommerce websites of the telecom industry giants.
         </p>
         <p className="intro-p">
-          I enjoy being the bridge between engineering and design, and feel
-          right at home as a front end engineer. I&#39;m experienced in
-          developing and designing products for the web, from simple landing
-          pages to full-fledged web apps.
+          I enjoy being the bridge between engineering and human problems, try
+          to solve those problems by webapps. I&#39;m experienced in developing
+          and designing product from frontend to backend.
         </p>
         <span className="intro-p job-pls">
           In my spare time I like to deal problems using Datastructure and
