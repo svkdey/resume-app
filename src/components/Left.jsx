@@ -29,7 +29,7 @@ export default function Left(props) {
               </a>
             </div>
             <button className="button">
-              <a href="https://drive.google.com/file/d/1-092LRvkuTexSfO4vnqW-pfk_hpNn37t/view">
+              <a href="https://docs.google.com/document/d/1rNFoRv8Uu2KzoHtKKQpjVQVAlbmTuV1kBfIaVBxf0zU/view">
                 RESUME
               </a>
             </button>

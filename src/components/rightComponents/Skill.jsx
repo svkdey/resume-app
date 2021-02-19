@@ -9,13 +9,13 @@ export default function Skill() {
       <div className="right-part">
         <div className="skill-category">
           <strong>Languages: &nbsp;</strong>
-          <span>JavaScript (ES6), HTML5, CSS3, Java</span>
+          <span>Java,JavaScript (ES6), HTML5, CSS3</span>
         </div>
         <div className="skill-category">
           <strong>Libraries &amp; Frameworks: &nbsp;</strong>
-          <span>
-            React,Redux, jQuery, Bootstrap, Material CSS, Handlebars, Node,
-            AngularJS, Express, Chakra UI, Jest , Enzyme , Chai ,shell script
+          <span>Spring, JDBC, JPA, Spring security,
+            Micorservices(Netflix OSS), 
+            React,Redux, jQuery, Bootstrap, Material CSS, Node, Express, Shell script
           </span>
         </div>
         <div className="skill-category">
@@ -24,7 +24,11 @@ export default function Skill() {
         </div>
         <div className="skill-category">
           <strong>Tools: &nbsp;</strong>
-          <span>Git &amp; Github, Postman ,Amdocs Ginger</span>
+          <span>Git &amp; Github, Postman ,Perforce</span>
+        </div>
+        <div className="skill-category">
+          <strong>Cloud: &nbsp;</strong>
+          <span>AWS</span>
         </div>
       </div>
     </div>
